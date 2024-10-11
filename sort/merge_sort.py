@@ -7,9 +7,9 @@ def merge_sort(list):
     Combine, merge the sorted sublists
     Time complexity
     Takes O(log n) + Merge sort - Logarithmic time
-    Takes O(nlogn) + Merge
+    Takes O(nlogn) + Merge Always
     Takes O(knlogn) + Sort
-    Space Complexity
+    Space Complexity - 
     """
     if len(list) <= 1:
         return list
@@ -60,6 +60,6 @@ def verify_sorted(list):
         return True
     return list[0] < list [1] and verify_sorted(list[1:])
 
-un_list = [31,44,12,35,54,53,14,25,13,52,7,68,64,57,24,86,58]
+un_list = [1, 31, 42, 5, 41, 52, 41, 52, 14, 254, 14, 24]
 sorted = merge_sort(un_list)
 print(sorted)

@@ -120,6 +120,3 @@ l1.add(70)
 l1.add(80)
 l1.add(90)
 l1.add(100)
-
-n = l1.search(20)
-print(n)
