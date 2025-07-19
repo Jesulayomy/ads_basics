@@ -1,10 +1,9 @@
-
 function encode(strs) {
-  let encoded = ""
+  let encoded = "";
   for (let word of strs) {
     encoded += `${word.length};${word}`;
   }
-  return encoded
+  return encoded;
 }
 
 function decode(str) {
@@ -14,4 +13,4 @@ function decode(str) {
 const codex = encode(["an4ita", "la;va", "latina"]);
 console.log(codex);
 
-console.log(decode(codex))
+console.log(decode(codex));
