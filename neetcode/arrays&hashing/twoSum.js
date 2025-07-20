@@ -8,7 +8,7 @@ function twoSum(nums, target) {
     }
   }
   console.log(remainders);
-  return []
+  return [];
 }
 
 console.log(twoSum([1, 2, 3, 4], 8));
