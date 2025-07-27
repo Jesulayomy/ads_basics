@@ -1,0 +1,12 @@
+{
+  "name": "hubspot_assessment_2024",
+  "version": "1.0.0",
+  "description": "Code repository for Hubspot's technical assessment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Lucie Chevreuil",
+  "license": "ISC",
+  "type": "module"
+}
