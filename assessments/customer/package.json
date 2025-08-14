@@ -1,0 +1,13 @@
+{
+  "name": "customer",
+  "version": "1.0.0",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesulayomi <jesulayomi081@gmail.com> (https://www.jesulayomi.tech/)",
+  "license": "MIT",
+  "description": "",
+  "type": "module"
+}
